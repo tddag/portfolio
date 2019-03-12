@@ -1,0 +1,83 @@
+.experience-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('./../assets/images/capstone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: 0.9;
+}
+
+.flowing-center {
+    position: absolute;
+    width: 30%;
+    min-height: 100px;
+    margin-left: 20%;
+    margin-top: 200px;
+}
+
+.flowing-center strong {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.content {
+    border: 5px solid red;
+    min-height: 500px;
+    overflow: auto;
+    width: 90%;
+    margin: 70px auto;
+}
+
+.col-left {
+    border: 5px solid blue;
+    width: 30%;
+    min-height: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.col-left .title {
+    color: rgba(5, 83, 18, 0.774);
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.col-left a {
+    display: block;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.col-right {
+    border: 5px solid blue;
+    width: 60%;
+    min-height: 400px;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 20px;
+}
+
+.col-right-content {
+    border: 5px solid green;
+    width: 90%;
+    margin: auto;
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+
+.col-right-content h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 100px;
+    width: 26%;
+  }
