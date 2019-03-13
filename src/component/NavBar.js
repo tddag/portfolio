@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom'
 
 
 class NavBar extends Component {
+
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light">
                 <Link className="navbar-brand" to="/about">
                     <h4>Tam Dang </h4>
                 </Link>
@@ -16,7 +17,7 @@ class NavBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item ">
-                        <Link className="nav-link" to="/experience">
+                        <Link className="nav-link" to="/about">
                             About
                         </Link>
                     </li>

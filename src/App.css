@@ -7,3 +7,8 @@ body {
 footer {
   margin-top: 50px;
 }
+
+.sticky-nav {
+  position: fixed;
+  width: 100%;
+}

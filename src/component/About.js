@@ -3,6 +3,7 @@ import './About.styles.css';
 
 let profile = require('./../assets/images/profile4.JPG');
 class About extends Component {
+
     render() {
         return (
             <div>
