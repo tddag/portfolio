@@ -13,6 +13,18 @@ app.get("*", (req, res) => {
     res.send("hello")
 })
 
+// Serve static assets if in production
+if (process.env.NODE_ENV === 'production') {
+    // Set static folder
+    app.use(express.static('build'))
+
+    // Set default file for all routes
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+    })
+}
+
+
 // Set Port 
 const port = process.env.PORT || 4001
 
