@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './About.styles.css';
 
-let profile = require('./../assets/images/profile4.JPG');
+require('./../assets/images/IMG_7964.JPG');
 class About extends Component {
 
     render() {
@@ -9,7 +9,7 @@ class About extends Component {
             <div>
                 <div class="about-img">
                     <div class="flowing-text">
-                        <strong> Hey, I'm Tam Dang</strong> <br/>
+                        <strong> HEY, I'M TAM DANG</strong>
                         <i> Full Stack Developer</i>
                     </div>
                 </div>

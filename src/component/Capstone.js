@@ -24,7 +24,7 @@ class Capstone extends Component {
             <div>
                 <div class="experience-img">
                     <div class="flowing-center">
-                        <strong> Capstone Project</strong>
+                        <strong> CAPSTONE PROJECTS </strong>
                     </div>
                 </div>
                 <div class="content">
