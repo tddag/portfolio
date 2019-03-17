@@ -22,7 +22,7 @@ class Credentials extends Component {
                     </div>
                     <br/>
                     <h1> Academic Record/Transcript | 3.87/4.00 </h1>
-                    <p> During past 5 semester, performed and maintained a good studying status</p>
+                    <p> During past 5 semesters, performed and maintained a good studying status</p>
                     <div class="ctfc-img">
                         <a href="https://1drv.ms/u/s!Ap4a76M6iNAWhY9sRTaqcCo_3McI4Q" target="_blank">
                             <img src={require("./../assets/images/record.png")}></img>
