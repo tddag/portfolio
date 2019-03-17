@@ -25,7 +25,7 @@
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     min-height: 500px;
     text-align: center;
     margin: auto;
@@ -45,7 +45,7 @@
 .flex-wrapper > div {
     width: 500px;
     height: 300px;
-    margin-left: 40px;
+    margin-left: 6%;
     margin-top: 20px;
     position: relative;
 }

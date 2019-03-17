@@ -36,6 +36,7 @@ class Capstone extends Component {
                         <a href="#requirementsanalysis"> REQUIREMENTS ANALYSIS AND DESIGN</a>
                         <a href="#wireframes"> WIREFRAMES/MOCK UPS</a>
                         <a href="#wireframes"> SYSTEM IMPLEMENTATION</a>
+                        <a href="#wireframes"> STATUS REPORTS</a>
                     </div>
                     <div class="col-right">
                         <div id="projectvision" class="col-right-content">

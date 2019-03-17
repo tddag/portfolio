@@ -21,40 +21,30 @@ class NavBar extends Component {
                             About
                         </Link>
                     </li>
-                    <li className="nav-item ">
-                        <Link className="nav-link" to="/capstone">
-                            Capstone
-                        </Link>
-                    </li>
-                    <li className="nav-item ">
-                        <Link className="nav-link" to="/experience">
-                            Experience
-                        </Link>
-                    </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/projects">
                             Projects
                         </Link>
                     </li>
+                    <li className="nav-item ">
+                        <Link className="nav-link" to="/capstone">
+                            Capstone
+                        </Link>
+                    </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/skills">
-                        Skills
+                    <Link className="nav-link" to="/credentials">
+                        Credentials
                     </Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/education">
-                        Education
-                    </Link>
-                    </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="/contact">
-                        Contact
-                    </Link>
-                    </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="/resume">
+                    <a className="nav-link" href="https://1drv.ms/b/s!Ap4a76M6iNAWhY9p5V9WGP9d22VhBQ" target="_blank">
                         Resume
-                    </Link>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="https://1drv.ms/b/s!Ap4a76M6iNAWhY9qCpeyujvDOaNiQQ" target="_blank">
+                        Cover Letter
+                    </a>
                     </li>
                 </ul>
                 </div>

@@ -3,6 +3,8 @@ import NavBar from './component/NavBar';
 import Capstone from './component/Capstone';
 import Footer from './component/Footer';
 import Projects from './component/Projects';
+import Credentials from './component/Credentials';
+
 import './App.css';
 import { Route, Switch } from 'react-router-dom'
 import About from './component/About'
@@ -15,12 +17,9 @@ class App extends Component {
         <NavBar/>
         <Switch>
           <Route exact path="/about" component={About} />
-          <Route exact path="/capstone" component={Capstone} />
-          <Route path="/experience" component={About}/>}/>
+          <Route path="/credentials" component={Credentials} />
+          <Route path="/capstone" component={Capstone} />
           <Route path="/projects" component={Projects}/>}/>
-          <Route path="/skills" component={About}/>}/>
-          <Route path="/education" component={About}/>}/>
-          <Route path="/contact" component={About}/>}/>
           <Route path="/resume" component={About}/>}/>
           <Route path="*" component={About}/>}/>
 
